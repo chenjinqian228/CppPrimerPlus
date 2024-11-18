@@ -7,11 +7,11 @@ int main()
 {
     using namespace std;
     int stone;
-    cout << "Enter the weight in stone: ";
+    cout << "请输入重量（英石）：";
     cin >> stone;
     int pounds = stonetolb(stone);
-    cout << stone << " stone = ";
-    cout << pounds << " pounds." << endl;
+    cout << stone << " 英石 = ";
+    cout << pounds << " 磅。" << endl;
     return 0;
 }
 

@@ -6,11 +6,11 @@ int main()
     const int lbs_per_stn = 14;    // 1英石等于14磅
     int lbs;
     
-    cout << "Enter your weight in pounds: ";
+    cout << "请输入您的体重（磅）：";
     cin >> lbs;
     int stone = lbs / lbs_per_stn;      // 计算整数英石
     int pounds = lbs % lbs_per_stn;      // 剩余的磅数
-    cout << lbs << " pounds are " << stone 
-         << " stone, " << pounds << " pound(s).\n";
+    cout << lbs << " 磅等于 " << stone 
+         << " 英石 " << pounds << " 磅。\n";
     return 0;
 }

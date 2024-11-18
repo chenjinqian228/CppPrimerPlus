@@ -3,11 +3,11 @@
 int main()
 {   
     using namespace std;
-    char    ch;
+    char ch;    // 声明一个字符变量
 
-    cout <<"Enter a character: " << endl;
-    cin >> ch;
-    cout << "Hola! ";
-    cout << "Thank you for the " << ch << " character" << endl;
+    cout << "请输入一个字符：" << endl;
+    cin >> ch;  // 从键盘读取一个字符
+    cout << "你好！";
+    cout << "感谢你输入了字符 " << ch << endl;
     return 0;
 }

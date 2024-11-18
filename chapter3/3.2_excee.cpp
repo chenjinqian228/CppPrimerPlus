@@ -8,24 +8,24 @@ int main()
     short sam = SHRT_MAX;      // 将变量初始化为 short 类型的最大值
     unsigned short sue = sam;   // 将 sam 的值赋给 sue（sam 变量已定义，所以没问题）
 
-    cout << "Sam has " << sam << " dollars and Sue has " << sue;
-    cout << " dollars deposited." << endl;
-    cout << "Add $1 to each account." << endl << "Now ";
+    cout << "Sam 有 " << sam << " 美元，Sue 有 " << sue;
+    cout << " 美元存款。" << endl;
+    cout << "给每个账户加 $1。" << endl << "现在 ";
     
     sam = sam + 1;
     sue = sue + 1;
-    cout << "Sam has " << sam << " dollars and Sue has " << sue;
-    cout << " dollars deposited.\nPoor Sam!" << endl;
+    cout << "Sam 有 " << sam << " 美元，Sue 有 " << sue;
+    cout << " 美元存款。\n可怜的 Sam！" << endl;
 
     sam = ZERO;
     sue = ZERO;
-    cout << "Sam has " << sam << " dollars and Sue has " << sue;
-    cout << " dollars deposited." << endl;
-    cout << "Take $1 from each account." << endl << "Now ";
+    cout << "Sam 有 " << sam << " 美元，Sue 有 " << sue;
+    cout << " 美元存款。" << endl;
+    cout << "从每个账户取出 $1。" << endl << "现在 ";
     
     sam = sam - 1;
     sue = sue - 1;
-    cout << "Sam has " << sam << " dollars and Sue has " << sue;
-    cout << " dollars deposited." << endl << "Lucky Sue!" << endl;
+    cout << "Sam 有 " << sam << " 美元，Sue 有 " << sue;
+    cout << " 美元存款。" << endl << "幸运的 Sue！" << endl;
     return 0;
 }

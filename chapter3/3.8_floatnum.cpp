@@ -3,17 +3,17 @@
 int main()
 {
     using namespace std;
-    cout.setf(ios_base::fixed, ios_base::floatfield);
-    float tub = 10.0 / 3.0;
-    double mint = 10.0 / 3.0;
-    const float million = 1.0e6;
+    cout.setf(ios_base::fixed, ios_base::floatfield); // 设置为定点表示法
+    float tub = 10.0 / 3.0;    // float类型，单精度浮点数
+    double mint = 10.0 / 3.0;   // double类型，双精度浮点数
+    const float million = 1.0e6;  // 一百万
 
     cout << "tub = " << tub;
-    cout << ", a million tubs = " << million * tub;
-    cout << ",\nand ten million tubs = " << 10 * million * tub << endl;
+    cout << ", 一百万个tub = " << million * tub;
+    cout << ",\n一千万个tub = " << 10 * million * tub << endl;
 
     cout << "mint = " << mint;
-    cout << ",and a million mints = " << million * mint;
-    cout << ",\nand ten million mints = " << 10 * million * mint << endl;
+    cout << ", 一百万个mint = " << million * mint;
+    cout << ",\n一千万个mint = " << 10 * million * mint << endl;
     return 0;
 }

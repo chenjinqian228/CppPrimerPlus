@@ -8,11 +8,11 @@ int main()
     int waist = 42;
     int inseam = 42;
 
-    cout << "Monsieur cuts a striking figure!" << endl;
-    cout << "chest = " << chest << " (decimal for 42)" << endl;
+    cout << "先生的身材很出众！" << endl;
+    cout << "胸围 = " << chest << " (42的十进制)" << endl;
     cout << hex;       // 操纵符：改变数字进制为十六进制
-    cout << "waist = " << waist << " (hexadecimal for 42)" << endl;
+    cout << "腰围 = " << waist << " (42的十六进制)" << endl;
     cout << oct;       // 操纵符：改变数字进制为八进制
-    cout << "inseam = " << inseam << " (octal for 42)" << endl;
+    cout << "内缝 = " << inseam << " (42的八进制)" << endl;
     return 0;
 }
