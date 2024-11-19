@@ -22,10 +22,10 @@ int main()
     int len1 = str1.size();    // 获取str1的长度
     int len2 = strlen(charr1); // 获取charr1的长度
 
-    cout << "The string " << str1 << " contains "
-         << len1 << " characters.\n";
-    cout << "The string " << charr1 << " contains "
-         << len2 << " characters.\n";
+    cout << "字符串 " << str1 << " 包含 "
+         << len1 << " 个字符。\n";
+    cout << "字符串 " << charr1 << " 包含 "
+         << len2 << " 个字符。\n";
 
     return 0;
 }

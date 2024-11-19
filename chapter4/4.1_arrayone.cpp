@@ -1,5 +1,4 @@
-// arrayone.cpp --小整数数组
-
+// arrayone.cpp -- 小整数数组
 #include <iostream>
 int main()
 {
@@ -14,19 +13,19 @@ int main()
     // 这个数组，使用 static int yamcosts[3] 替代
     // int yamcosts[3]
 
-    cout << "Total yams = ";
+    cout << "薯蓣总数 = ";
     cout << yams[0] + yams[1] + yams[2] << endl;
-    cout << "The package with " << yams[1] << " yams costs ";
-    cout << yamcosts[1] << " cents per yam.\n";
+    cout << "包含 " << yams[1] << " 个薯蓣的包装每个薯蓣花费 ";
+    cout << yamcosts[1] << " 美分。\n";
     
     int total = yams[0] * yamcosts[0] + yams[1] * yamcosts[1];
     total = total + yams[2] * yamcosts[2];
-    cout << "The total yam expense is " << total << " cents.\n";
+    cout << "薯蓣总开销为 " << total << " 美分。\n";
 
-    cout << "\nSize of yams array = " << sizeof yams;
-    cout << " bytes.\n";
-    cout << "Size of one element = " << sizeof yams[0];
-    cout << " bytes.\n";
+    cout << "\nyams数组的大小 = " << sizeof yams;
+    cout << " 字节。\n";
+    cout << "一个元素的大小 = " << sizeof yams[0];
+    cout << " 字节。\n";
 
     return 0;
 }
