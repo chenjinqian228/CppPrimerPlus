@@ -1,5 +1,11 @@
 # Prerequisites
 *.d
+.vscode/tasks.json
+.vscode/settings.json
+.vscode/extensions.json
+.vscode/launch.json
+
+
 
 # Compiled Object files
 *.slo
@@ -26,6 +32,7 @@
 *.a
 *.lib
 *.jpg
+*.dSYM
 
 # Executables
 *.exe
