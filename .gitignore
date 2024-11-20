@@ -1,9 +1,53 @@
+# 忽略所有没有扩展名的文件（Mac下的可执行文件通常没有扩展名）
+*
+*.*
+!*.*
+!*/
+
+
+# 更具体的规则
+[0-9]*.[0-9]*_*
+!*.[a-zA-Z]*
+
+# 或者使用更复杂的模式
+[0-9]*[._][0-9]*_*
+!*.[a-zA-Z]*
+
+# 直接指定要忽略的文件名模式
+4.6_numstr
+
+
+
+
+
+
+# 忽略常见的C++编译产物
+*.o
+*.out
+*.exe
+*.app
+*.dSYM/
+
+# 忽略常见的构建目录
+build/
+debug/
+release/
+bin/
+obj/
+
+# 忽略CMake生成的文件
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# 忽略特定的IDE文件
+.vscode/
+.idea/
+*.xcodeproj/
+
 # Prerequisites
 *.d
-.vscode/tasks.json
-.vscode/settings.json
-.vscode/extensions.json
-.vscode/launch.json
 
 
 
