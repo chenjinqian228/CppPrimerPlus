@@ -11,7 +11,7 @@ int main()
         if (ch == '\n')
             std::cout << ch;      // 如果是换行符就直接输出
         else
-            std::cout << ch;    // 否则输出该字符的下一个字符
+            std::cout << ++ch;    // 否则输出该字符的下一个字符
         std::cin.get(ch);
     }
     // 尝试用 ch + 1 替代 ++ch 会产生有趣的效果
