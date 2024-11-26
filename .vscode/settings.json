@@ -40,7 +40,9 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "typeinfo": "cpp",
-        "climits": "cpp"
+        "climits": "cpp",
+        "cstring": "cpp",
+        "ctime": "cpp"
     },
     "commentTranslate.multiLineMerge": true
 }
